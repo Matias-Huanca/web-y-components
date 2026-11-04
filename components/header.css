@@ -1,0 +1,18 @@
+/* -------------- Header- Componente */
+.header {
+  padding: 10px;
+  background-color: #13171c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 68px;
+  height: 68px;
+}
+.logo-menu {
+  width: 40px;
+  height: 40px;
+}
