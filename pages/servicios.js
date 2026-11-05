@@ -50,8 +50,23 @@ function serviciosComponent(el) {
   el.appendChild(componenteEl);
 }
 
-function main() {
+function servicios() {
+  // Llama al Servicios (Propio)
   const servicios = document.querySelector(".serviciosComponent");
-  serviciosComponent(servicios);
+  if (servicios) {
+    serviciosComponent(servicios);
+    console.log("ejecutando main de servicios");
+  }
+  //Llama al header
+  const headerServicios = document.querySelector(".headerServicios");
+  if (headerServicios) {
+    headerComponent(headerServicios);
+    menuVentana();
+  }
+  //Llama al Footer
+  const footerServicios = document.querySelector(".footerServicios");
+  if (footerServicios) {
+    footerComponent(footerServicios);
+  }
 }
-main();
+servicios();

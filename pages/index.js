@@ -8,6 +8,11 @@ function main() {
   // Componente Contacto
   const contacto = document.querySelector(".contacto-cont");
   contactoComponent(contacto);
+  // Componente Footer
+  const footer = document.querySelector(".footer-cont");
+  footerComponent(footer);
+  // Logica Menu Ventana
+  menuVentana();
 }
 
 main();

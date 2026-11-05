@@ -1,50 +1,36 @@
-/* ---------------------Section Servicios */
-.servicios {
-  height: 1903px;
-  padding: 25px;
-  /* background-image: url(./imagenes/doodle-items.png); */
-  background-color: #13171c;
-  /* display: flex; */
+* {
+  box-sizing: border-box;
 }
-.servicios__title {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Poppins";
 }
-.mis {
-  color: white;
-  font-size: 42px;
-}
-.servicios {
-  color: #00adb5;
-  font-size: 42px;
-}
-.card-cont {
+/* ---------------------Section home*/
+.serviciosHome {
+  height: 789px;
   /* border: solid red; */
-  height: 1564px;
-  display: grid;
-  gap: 48px;
-}
-.card {
-  height: 481px;
-  background-color: #393e4680;
+  background-color: #13171c;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 22px;
-  border-radius: 16px;
+  justify-content: center;
 }
-.card__img {
-  width: 265px;
-  height: 158px;
-}
-.card__title {
-  color: white;
-  font-size: 33px;
+.home__title {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
-.card_descrip {
+.title__mis {
   color: white;
-  font-size: 16px;
-  margin: 0;
+  font-size: 60px;
+}
+.title_trabajo {
+  color: #00adb5;
+  font-size: 60px;
+}
+.servicios_img {
+  width: 239px;
+  height: 231px;
 }
 /* ---------------------Section Servicios */
 .servicios {

@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+/* ---------------------Section home*/
+.portfolioHome {
+  height: 789px;
+  /* border: solid red; */
+  background-color: #13171c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio__title__mis {
+  color: white;
+  font-size: 60px;
+}
+.portfolio__title_trabajo {
+  color: #00adb5;
+  font-size: 60px;
+}
+.portfolio-img {
+  width: 239px;
+  height: 231px;
+}

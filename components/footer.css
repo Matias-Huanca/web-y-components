@@ -1,0 +1,49 @@
+/* ---------------------Section Footer */
+.footer {
+  color: white;
+  height: 534px;
+  background-color: #0f1113;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer-logo {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 20px;
+}
+.footer__opc-cont {
+  /* border: solid red; */
+  height: 141px;
+  width: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__opc {
+  display: flex;
+}
+
+.footer__img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+.footer__title {
+  margin: 0;
+}
+.footer__redes {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid blue; */
+  height: 48px;
+  width: 192px;
+}
+.footer_github {
+  color: #eeeeeebf;
+  font-size: 18px;
+  text-align: center;
+}

@@ -32,3 +32,24 @@ function contactoComponent(el) {
 
   el.appendChild(componenteEl);
 }
+
+function contacto() {
+  // Llama al Contacto (Propio)
+  const contacto = document.querySelector(".contactoComponent");
+  if (contacto) {
+    contactoComponent(contacto);
+    console.log("ejecutando main de servicios");
+  }
+  //Llama al header
+  const headerContacto = document.querySelector(".headerContacto");
+  if (headerContacto) {
+    headerComponent(headerContacto);
+    menuVentana();
+  }
+  //Llama al Footer
+  const footerContacto = document.querySelector(".footerContacto");
+  if (footerContacto) {
+    footerComponent(footerContacto);
+  }
+}
+contacto();
