@@ -5,6 +5,8 @@ body {
   margin: 0;
   font-family: "Poppins";
 }
+/* ---------------------Section HOME*/
+
 .home {
   height: 789px;
   /* border: solid red; */
@@ -13,50 +15,119 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background-image: url("../imagenes/fondo-servicios.png"); */
 }
 
+@media (min-width: 746px) {
+  .home {
+    height: 903px;
+    background-color: #13171c;
+    flex-direction: row;
+  }
+}
 .home__title {
   display: flex;
   flex-direction: column;
   text-align: center;
   /* justify-content: center; */
 }
+@media (min-width: 746px) {
+  .home__title {
+    margin-right: 230px;
+  }
+}
 .title__hola {
   color: white;
   font-size: 60px;
+}
+@media (min-width: 746px) {
+  .title__hola {
+    font-size: 90px;
+  }
 }
 .title_SoySergio {
   color: #00adb5;
   font-size: 60px;
 }
+@media (min-width: 746px) {
+  .title_SoySergio {
+    font-size: 90px;
+  }
+}
+.img-cont-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .home_img {
   width: 219px;
   height: 211px;
+  margin-bottom: 30px;
+}
+@media (min-width: 746px) {
+  .home_img {
+    width: 340px;
+    height: 353px;
+    margin-bottom: 105px;
+  }
+}
+.home-img-eclipse {
+  width: 170px;
+  margin-left: -75px;
+}
+@media (min-width: 746px) {
+  .home-img-eclipse {
+    width: 308px;
+  }
 }
 
 /* ---------------------Section Presentacion */
 .presentacion {
   height: 789px;
   background-color: #192130;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 70px 40px 72px 40px;
 }
-
+@media (min-width: 746px) {
+  .presentacion {
+    height: 935px;
+    flex-direction: row;
+    padding: 260px 125px;
+  }
+}
 .presentacion__title {
   color: white;
   font-size: 42px;
   margin: 0;
 }
+@media (min-width: 746px) {
+  .presentacion__title {
+    font-size: 64px;
+  }
+}
 .presentacion__parrafo {
   color: #eeeeeebf;
   font-size: 18px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+}
+@media (min-width: 746px) {
+  .presentacion__parrafo {
+    font-size: 18px;
+  }
 }
 .presentacion__img {
   width: 310px;
   height: 350px;
   object-fit: cover;
+}
+@media (min-width: 746px) {
+  .presentacion__img {
+    width: 640px;
+    height: 550px;
+    object-fit: cover;
+  }
 }

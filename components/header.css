@@ -1,5 +1,6 @@
 /* -------------- Header- Componente */
 .header {
+  height: 114px;
   padding: 10px;
   background-color: #13171c;
   display: flex;
@@ -7,7 +8,12 @@
   align-items: center;
   justify-content: space-between;
 }
-
+@media (min-width: 746px) {
+  .header {
+    height: 124px;
+    padding: 30px;
+  }
+}
 .logo-img {
   width: 75px;
   height: 75px;

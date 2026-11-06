@@ -4,28 +4,34 @@ function contactoComponent(el) {
   componenteEl.innerHTML = `<section class="contacto">
         <h3 class="contacto__title">Escribime</h3>
         <form class="contacto__form">
-          <label>
-            <h3 class="contacto__label">Nombre</h3>
-            <input
+          <div class="cont-datos">
+            <label class="cont-label">
+              <h3 class="contacto__label">Nombre</h3>
+              <input
               class="contacto__input"
               type="text"
-              placeholder="tu nombre"
-            />
-          </label>
-          <label>
-            <h3 class="contacto__label">Email</h3>
-            <input
+              placeholder=" tu nombre"
+              />
+            </label>
+            <div class="espacio__cont-label"></div>
+            <label class="cont-label">
+              <h3 class="contacto__label">Email</h3>
+              <input
               class="contacto__input"
               type="text"
-              placeholder="tu@gmail.com"
-            />
-          </label>
+              placeholder=" tu@gmail.com"
+              />
+            </label>
+          </div>
           <label>
             <h3 class="contacto__label">Mensaje</h3>
             <textarea class="contacto__textarea"></textarea>
           </label>
           <div class="contacto__submit-cont">
-            <button class="submit-button">Enviar</button>
+            <button class="submit-button">
+              <h3>Enviar</h3>
+              <img class="button-img" src="./imagenes/send.png" alt="">
+            </button>
           </div>
         </form>
       </section>`;

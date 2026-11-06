@@ -34,11 +34,20 @@ body {
 }
 /* ---------------------Section Servicios */
 .servicios {
+  /* width: 100%; */
   height: 1903px;
   padding: 25px;
   /* background-image: url(./imagenes/doodle-items.png); */
   background-color: #13171c;
-  /* display: flex; */
+  background-image: url("../imagenes/fondo-servicios.png");
+  text-align: center;
+  justify-content: center;
+}
+@media (min-width: 746px) {
+  .servicios {
+    height: 942px;
+    padding: 110px;
+  }
 }
 .servicios__title {
   text-align: center;
@@ -46,25 +55,45 @@ body {
 .mis {
   color: white;
   font-size: 42px;
+  margin-right: 10px;
 }
-.servicios {
+.mis-servicios {
   color: #00adb5;
   font-size: 42px;
 }
+@media (min-width: 746px) {
+  .mis,
+  .mis-servicios {
+    font-size: 60px;
+  }
+}
 .card-cont {
-  /* border: solid red; */
   height: 1564px;
   display: grid;
   gap: 48px;
 }
+@media (min-width: 746px) {
+  .card-cont {
+    height: 469px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+  }
+}
 .card {
   height: 481px;
+  width: 324px;
   background-color: #393e4680;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 22px;
   border-radius: 16px;
+}
+@media (min-width: 746px) {
+  .card {
+    height: 525px;
+    width: 364px;
+  }
 }
 .card__img {
   width: 265px;
